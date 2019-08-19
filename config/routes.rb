@@ -2,6 +2,7 @@ require 'api_version_constraint'
 
 Rails.application.routes.draw do
   
+  devise_for :users
   # definindo um namespace /api 
   # formato das requisiçoes em json
   # subdominio api.site.com/caminho
